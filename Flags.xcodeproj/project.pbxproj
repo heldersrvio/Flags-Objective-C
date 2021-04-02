@@ -14,6 +14,7 @@
 		9A14519826174EE90044F65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A14519726174EE90044F65E /* Assets.xcassets */; };
 		9A14519B26174EE90044F65E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A14519926174EE90044F65E /* LaunchScreen.storyboard */; };
 		9A14519E26174EEA0044F65E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A14519D26174EEA0044F65E /* main.m */; };
+		9A1451A92617524F0044F65E /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1451A82617524F0044F65E /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		9A14519A26174EE90044F65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A14519C26174EEA0044F65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A14519D26174EEA0044F65E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A1451A72617524F0044F65E /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		9A1451A82617524F0044F65E /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				9A14518F26174EE30044F65E /* SceneDelegate.m */,
 				9A14519126174EE30044F65E /* ViewController.h */,
 				9A14519226174EE30044F65E /* ViewController.m */,
+				9A1451A72617524F0044F65E /* TableViewCell.h */,
+				9A1451A82617524F0044F65E /* TableViewCell.m */,
 				9A14519426174EE30044F65E /* Main.storyboard */,
 				9A14519726174EE90044F65E /* Assets.xcassets */,
 				9A14519926174EE90044F65E /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 				9A14519326174EE30044F65E /* ViewController.m in Sources */,
 				9A14518D26174EE30044F65E /* AppDelegate.m in Sources */,
 				9A14519E26174EEA0044F65E /* main.m in Sources */,
+				9A1451A92617524F0044F65E /* TableViewCell.m in Sources */,
 				9A14519026174EE30044F65E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
