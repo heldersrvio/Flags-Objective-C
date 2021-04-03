@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "TableViewCell.h"
+#import "DetailViewController.h"
 
 @interface ViewController ()
 
@@ -40,7 +41,10 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    DetailViewController* dvc = [[self storyboard] instantiateViewControllerWithIdentifier:@"Detail"];
+    [dvc setName:countries[[indexPath row]]];
+    [dvc setImageName:[countries[[indexPath row]] lowercaseString]];
+    [ [self navigationController] pushViewController:dvc animated:true];
 }
 
 
